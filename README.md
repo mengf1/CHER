@@ -2,7 +2,7 @@
 
 ## Environments
 
-![Tasks](assets/fig-5tasks.jpeg)
+![Tasks](assets/fig-envs.png)
 
 The environments are from [OpenAI Gym](https://github.com/openai/gym). They are as follows:
 - FetchReach-v1
@@ -68,6 +68,14 @@ booktitle={Advances in Neural Information Processing Systems},
 year={2019},
 }
 ```
+
+## Poster
+
+<object data="https://mengf1.github.io/files/posters/CHER-poster.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://mengf1.github.io/files/posters/CHER-poster.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://mengf1.github.io/files/posters/CHER-poster.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 ## Licence
 The MIT License
