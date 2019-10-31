@@ -61,7 +61,7 @@ def make_sample_her_transitions(replay_strategy, replay_k, reward_fun):
 
     def lazier_and_goals_sample_kg(goals, ac_goals, obs,
                                    batch_size_in_transitions):
-        if config_cur.goal_type == "ROTAION":
+        if config_cur.goal_type == "ROTATION":
             goals, ac_goals = goals[..., 3:], ac_goals[..., 3:]
 
         num_neighbor = 1
