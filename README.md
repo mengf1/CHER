@@ -48,7 +48,7 @@ python install -e .
 ## How to train
 
 Use FetchReach as an example
-
+> Note: if use HandManipulate environments, please run with 20 CPU cores. 
 ``` shell
 cd CHER/baselines/cher/experiment/
 python train.py --env_name FetchReach-v1 --seed 0 --num_cpu 1  --n_epochs 50 --logdir fetchreachv1/cpu1ep50/alg=DDPG+CHER=/r0
